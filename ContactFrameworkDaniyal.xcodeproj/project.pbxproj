@@ -12,6 +12,8 @@
 		2E38B4BD21809E0E00AFC05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38B4BB21809E0E00AFC05B /* Main.storyboard */; };
 		2E38B4BF21809E0F00AFC05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E38B4BE21809E0F00AFC05B /* Assets.xcassets */; };
 		2E38B4C221809E0F00AFC05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E38B4C021809E0F00AFC05B /* LaunchScreen.storyboard */; };
+		2E38B4CB21809E2F00AFC05B /* UserContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38B4C921809E2F00AFC05B /* UserContact.swift */; };
+		2E38B4CC21809E2F00AFC05B /* UserContact.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E38B4CA21809E2F00AFC05B /* UserContact.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2E38B4BE21809E0F00AFC05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E38B4C121809E0F00AFC05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E38B4C321809E0F00AFC05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E38B4C921809E2F00AFC05B /* UserContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContact.swift; sourceTree = "<group>"; };
+		2E38B4CA21809E2F00AFC05B /* UserContact.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserContact.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2E38B4BE21809E0F00AFC05B /* Assets.xcassets */,
 				2E38B4C021809E0F00AFC05B /* LaunchScreen.storyboard */,
 				2E38B4C321809E0F00AFC05B /* Info.plist */,
+				2E38B4C921809E2F00AFC05B /* UserContact.swift */,
+				2E38B4CA21809E2F00AFC05B /* UserContact.xib */,
 			);
 			path = ContactFrameworkDaniyal;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				2E38B4C221809E0F00AFC05B /* LaunchScreen.storyboard in Resources */,
 				2E38B4BF21809E0F00AFC05B /* Assets.xcassets in Resources */,
 				2E38B4BD21809E0E00AFC05B /* Main.storyboard in Resources */,
+				2E38B4CC21809E2F00AFC05B /* UserContact.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E38B4CB21809E2F00AFC05B /* UserContact.swift in Sources */,
 				2E38B4BA21809E0E00AFC05B /* ViewController.swift in Sources */,
 				2E38B4B821809E0E00AFC05B /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K2RZXAVRCR;
+				DEVELOPMENT_TEAM = G63A5N8Y3S;
 				INFOPLIST_FILE = ContactFrameworkDaniyal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K2RZXAVRCR;
+				DEVELOPMENT_TEAM = G63A5N8Y3S;
 				INFOPLIST_FILE = ContactFrameworkDaniyal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
